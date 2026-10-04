@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /_design-system/
-
-Sitemap: https://enzoschitini.github.io/better-ai/sitemap.xml
