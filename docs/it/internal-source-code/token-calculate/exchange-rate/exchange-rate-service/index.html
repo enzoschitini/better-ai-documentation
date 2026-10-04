@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="it" data-theme-default>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  // Define o tema antes de pintar a página, para não piscar. Não remova.
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('betterai-docs-theme'); } catch (e) {}
+    if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.dataset.theme = t;
+  })();
+</script>
+<meta name="color-scheme" content="light dark">
+<title>Exchange Rate Service | Internal Source Code | BetterAI Docs</title>
+<meta name="description" content="Where intelligence finds purpose.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/exchange-rate/exchange-rate-service/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../../../assets/css/ds.46a1e85d.css">
+<link rel="icon" href="../../../../../assets/img/logo-icon.png">
+<script>window.DOCS={"lang":"it","root":"../../../../../","alt":{"pt":"pt/internal-source-code/token-calculate/exchange-rate/exchange-rate-service/","en":"en/internal-source-code/token-calculate/exchange-rate/exchange-rate-service/","it":"it/internal-source-code/token-calculate/exchange-rate/exchange-rate-service/"},"index":"../../../../../it/search-index.8726304d.json","i":{"noResults":"Nessun risultato per “%s”. Prova il nome di un modulo, come “Pinecone”.","suggestions":"Suggerimenti"}};</script>
+<script defer src="../../../../../assets/js/docs.43f1b0fa.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+
+<header class="header" id="header">
+  <div class="bar">
+    <div class="row1">
+      <a class="brand" href="../../../../../it/">
+        <img src="../../../../../assets/img/logo-icon.png" alt="">
+        <span class="brand-name">BetterAI</span>
+        <span class="brand-sub">Docs</span>
+      </a>
+      <button class="search-trigger" type="button" data-open-search aria-label="Cerca nella documentazione">
+        <i data-ico="search"></i><span>Cerca...</span><kbd>Ctrl K</kbd>
+      </button>
+      <div class="actions">
+        <a class="btn-soft" href="https://github.com/enzoschitini/better-ai"><i data-ico="code"></i>GitHub</a>
+        <a class="btn-cta" href="https://better-ai-production.up.railway.app/docs">Swagger UI<i data-ico="chevron"></i></a>
+        <div class="lang">
+          <button class="lang-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-label="Lingua"><i data-ico="globe"></i><b>IT</b></button>
+          <ul class="lang-menu" role="menu" hidden>
+            <li role="none"><button type="button" role="menuitemradio" data-lang="en" aria-checked="false"><span>English</span><i class="ck" data-ico="check"></i></button></li>
+            <li role="none"><button type="button" role="menuitemradio" data-lang="it" aria-checked="true"><span>Italiano</span><i class="ck" data-ico="check"></i></button></li>
+            <li role="none"><button type="button" role="menuitemradio" data-lang="pt" aria-checked="false"><span>Português</span><i class="ck" data-ico="check"></i></button></li>
+          </ul>
+        </div>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Cambia tema"></button>
+      </div>
+    </div>
+    <nav class="tabs-row" aria-label="Aree della documentazione">
+      <a class="tab" href="../../../../../it/">Panoramica</a>
+      <a class="tab" href="../../../../../it/getting-started/">Getting Started</a>
+      <a class="tab" href="../../../../../it/modules/">Modules</a>
+      <a class="tab" href="../../../../../it/internal-source-code/" aria-current="page">Internal Source Code</a>
+      <a class="tab" href="../../../../../it/streamlit-applications/">Streamlit Applications</a>
+    </nav>
+    <div class="subbar">
+      <button type="button" data-menu-toggle aria-controls="side" aria-expanded="false"><i data-ico="menu"></i><span>Internal Source Code</span></button>
+      <i data-ico="chevron"></i>
+      <span class="here">Exchange Rate Service</span>
+    </div>
+  </div>
+  <div class="header-line"></div>
+</header>
+
+<div class="shell">
+  <aside class="side-wrap" id="side" aria-label="Navigazione della documentazione">
+    <nav class="side">
+      <div class="side-areas">
+        <a href="../../../../../it/">Panoramica</a>
+        <a href="../../../../../it/getting-started/">Getting Started</a>
+        <a href="../../../../../it/modules/">Modules</a>
+        <a href="../../../../../it/internal-source-code/" aria-current="page">Internal Source Code</a>
+        <a href="../../../../../it/streamlit-applications/">Streamlit Applications</a>
+      </div>
+      <a class="side-link" href="../../../../../it/internal-source-code/">Panoramica</a>
+      <div class="side-group">
+        <p class="side-title">Generale</p>
+        <ul>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/agnoui/"><span>AgnoUI</span></a></li>
+        </ul>
+      </div>
+      <div class="side-group">
+        <p class="side-title">Application Tracing</p>
+        <ul>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/application-tracing/logger-engine/"><span>Logger Engine</span></a></li>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/application-tracing/payload-builder/"><span>Payload Builder</span></a></li>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/application-tracing/tracing-core/"><span>Tracing Core</span></a></li>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/application-tracing/use/"><span>Use</span><span class="badge">vuoto</span></a></li>
+        </ul>
+      </div>
+      <div class="side-group">
+        <p class="side-title">Database</p>
+        <ul>
+          <li>
+  <button class="side-link side-folder" type="button" aria-expanded="false"><span>No SQL</span><i class="chev" data-ico="chevron"></i></button>
+  <ul class="side-sub" hidden>
+  <li><a class="side-link" href="../../../../../it/internal-source-code/database/no-sql/local-manage/"><span>Local Manage</span></a></li>
+  <li><a class="side-link" href="../../../../../it/internal-source-code/database/no-sql/mongo-manager/"><span>Mongo Manager</span></a></li>
+  <li><a class="side-link" href="../../../../../it/internal-source-code/database/no-sql/router/"><span>Router</span></a></li>
+  </ul>
+</li>
+          <li>
+  <button class="side-link side-folder" type="button" aria-expanded="false"><span>SQL</span><i class="chev" data-ico="chevron"></i></button>
+  <ul class="side-sub" hidden>
+  <li><a class="side-link" href="../../../../../it/internal-source-code/database/sql/supabase-database/"><span>Supabase Database</span></a></li>
+  </ul>
+</li>
+        </ul>
+      </div>
+      <div class="side-group">
+        <p class="side-title">Storage</p>
+        <ul>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/storage/storage-menage-repository/"><span>Storage Menage Repository</span></a></li>
+          <li>
+  <button class="side-link side-folder" type="button" aria-expanded="false"><span>Supabase</span><i class="chev" data-ico="chevron"></i></button>
+  <ul class="side-sub" hidden>
+  <li><a class="side-link" href="../../../../../it/internal-source-code/storage/supabase/storage-menager/"><span>Storage Menager</span></a></li>
+  </ul>
+</li>
+        </ul>
+      </div>
+      <div class="side-group">
+        <p class="side-title">Token Calculate</p>
+        <ul>
+          <li>
+  <button class="side-link side-folder" type="button" aria-expanded="true"><span>Exchange Rate</span><i class="chev" data-ico="chevron"></i></button>
+  <ul class="side-sub">
+  <li><a class="side-link" href="../../../../../it/internal-source-code/token-calculate/exchange-rate/bcb-exchange-rate-service/"><span>BCB Exchange Rate Service</span></a></li>
+  <li><a class="side-link" href="../../../../../it/internal-source-code/token-calculate/exchange-rate/exchange-rate-service/" aria-current="page"><span>Exchange Rate Service</span></a></li>
+  </ul>
+</li>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/token-calculate/model-pricing/"><span>Model Pricing</span></a></li>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/token-calculate/token-counter/"><span>Token Counter</span></a></li>
+        </ul>
+      </div>
+      <div class="side-group">
+        <p class="side-title">Utils</p>
+        <ul>
+          <li>
+  <button class="side-link side-folder" type="button" aria-expanded="false"><span>Load Request File</span><i class="chev" data-ico="chevron"></i></button>
+  <ul class="side-sub" hidden>
+  <li><a class="side-link" href="../../../../../it/internal-source-code/utils/load-request-file/documentation/"><span>Documentation</span></a></li>
+  <li><a class="side-link" href="../../../../../it/internal-source-code/utils/load-request-file/use/"><span>Use</span></a></li>
+  </ul>
+</li>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/utils/loader-files/"><span>Loader Files</span></a></li>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/utils/unique-id-factory/"><span>Unique ID Factory</span></a></li>
+        </ul>
+      </div>
+      <div class="side-group">
+        <p class="side-title">Vector Store</p>
+        <ul>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/vector-store/pinecone-client/"><span>Pinecone Client</span></a></li>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/vector-store/pinecone-embedding/"><span>Pinecone Embedding</span></a></li>
+          <li><a class="side-link" href="../../../../../it/internal-source-code/vector-store/pinecone-retriever/"><span>Pinecone Retriever</span></a></li>
+        </ul>
+      </div>
+    </nav>
+  </aside>
+
+  <div class="main">
+    <div class="main-row">
+      <main class="article" id="main">
+        <header>
+          <div class="eyebrow">Internal Source Code / Token Calculate / Exchange Rate</div>
+          <div class="title-row">
+            <h1 class="page-title" tabindex="-1">Exchange Rate Service</h1>
+            <div class="copy-page">
+              <button class="cp-main" type="button" data-copy-page><i data-ico="copy"></i><span>Copia pagina</span></button>
+            </div>
+          </div>
+          <p class="lead"></p>
+          <details class="toc-inline"><summary>In questa pagina</summary><ul></ul></details>
+        </header>
+
+        <div class="prose">
+<div class="callout" data-kind="note"><p>Questa pagina non è ancora stata tradotta. Stai leggendo la versione portoghese.</p></div>
+<div class="callout" data-kind="note">
+    <p>Esta página ainda não tem conteúdo. O texto entra aqui, dentro do
+      <code>&lt;article&gt;</code>, usando os componentes do design system.</p>
+  </div>
+        </div>
+
+        <div class="feedback">
+          <span class="q">Questa pagina è stata utile?</span>
+          <button class="fb-btn" type="button"><i data-ico="up"></i>Sì</button>
+          <button class="fb-btn" type="button"><i data-ico="dn"></i>No</button>
+          <a class="edit" href="https://github.com/enzoschitini/better-ai/edit/main/doc_page/content/pt/internal-source-code/token-calculate/exchange-rate/exchange-rate-service.html"><i data-ico="edit"></i>Modifica su GitHub</a>
+        </div>
+        <p class="source">Fonte: <a href="https://github.com/enzoschitini/better-ai/blob/main/doc_page/content/pt/internal-source-code/token-calculate/exchange-rate/exchange-rate-service.html"><code>content/pt/internal-source-code/token-calculate/exchange-rate/exchange-rate-service.html</code></a></p>
+        <nav class="pager" aria-label="Pagine vicine">
+          <a class="pager-link prev" href="../../../../../it/internal-source-code/token-calculate/exchange-rate/bcb-exchange-rate-service/"><i data-ico="chevron"></i><div><small>Precedente</small><span>BCB Exchange Rate Service</span></div></a>
+          <a class="pager-link next" href="../../../../../it/internal-source-code/token-calculate/model-pricing/"><div><small>Successiva</small><span>Model Pricing</span></div><i data-ico="chevron"></i></a>
+        </nav>
+      </main>
+
+      <aside class="toc" id="toc" data-toc aria-label="In questa pagina"></aside>
+    </div>
+
+    <footer class="site-foot">
+      <div class="foot-brand">
+        <a class="brand" href="../../../../../it/"><span class="brand-name">BetterAI</span><span class="brand-sub">Docs</span></a>
+        <p>Where intelligence finds purpose.</p>
+      </div>
+      <div class="foot-col">
+        <h2>Risorse</h2>
+        <a href="https://better-ai-production.up.railway.app/docs">Swagger UI</a>
+        <a href="https://github.com/enzoschitini/better-ai">GitHub</a>
+      </div>
+      <div class="foot-col">
+        <h2>Piattaforma</h2>
+        <a href="../../../../../it/modules/web-service-network/web-service-api/">Web Service Network</a>
+        <a href="../../../../../it/streamlit-applications/acquarello/">Acquarello</a>
+      </div>
+    </footer>
+  </div>
+</div>
+<div class="scrim"></div>
+
+<dialog class="search" id="search" aria-label="Cerca nella documentazione">
+  <div class="search-field">
+    <i data-ico="search"></i>
+    <input type="search" placeholder="Cerca pagine e sezioni" autocomplete="off" spellcheck="false">
+    <kbd>Esc</kbd>
+  </div>
+  <ul class="results" role="listbox" aria-label="Risultati"></ul>
+  <div class="search-foot">
+    <span><kbd>↑</kbd><kbd>↓</kbd><span>naviga</span></span>
+    <span><kbd>Enter</kbd><span>apri</span></span>
+  </div>
+</dialog>
+</body>
+</html>

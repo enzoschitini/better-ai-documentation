@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/getting-started/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/getting-started/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/getting-started/quickstart/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/getting-started/quickstart/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/getting-started/quickstart/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/getting-started/dependences/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/getting-started/dependences/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/getting-started/dependences/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/getting-started/licence/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/getting-started/licence/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/getting-started/licence/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/modules/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/modules/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/agents/utils/database/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/agents/utils/database/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/agents/utils/database/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/agents/utils/model-gateway/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/agents/utils/model-gateway/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/agents/utils/model-gateway/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/content-parse/content-parsing-agent/documentation/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/content-parsing-agent/documentation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/content-parsing-agent/documentation/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/content-parse/content-parsing-agent/use/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/content-parsing-agent/use/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/content-parsing-agent/use/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/content-parse/document-parse/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/document-parse/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/document-parse/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/content-parse/field-metadata-parser/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/field-metadata-parser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/field-metadata-parser/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/content-parse/generate-pydantic-schema/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/generate-pydantic-schema/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/generate-pydantic-schema/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/content-parse/json-to-pydantic/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/json-to-pydantic/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/content-parse/json-to-pydantic/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/embedding/delete-embeddings/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/embedding/delete-embeddings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/embedding/delete-embeddings/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/embedding/embedding-module/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/embedding/embedding-module/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/embedding/embedding-module/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/embedding/local-dynamic-embedding/documentation/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/embedding/local-dynamic-embedding/documentation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/embedding/local-dynamic-embedding/documentation/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/embedding/local-dynamic-embedding/use/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/embedding/local-dynamic-embedding/use/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/embedding/local-dynamic-embedding/use/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/pinecone-client/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/pinecone-client/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/pinecone-client/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/pinecone-retriever/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/pinecone-retriever/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/pinecone-retriever/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/pinecone-vector-service/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/pinecone-vector-service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/pinecone-vector-service/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/retrieval-manager/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/retrieval-manager/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/pinecone-vector-store/retrieval-manager/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/web-service-network/curl-compiler/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/web-service-network/curl-compiler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/web-service-network/curl-compiler/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/web-service-network/web-service-api/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/web-service-network/web-service-api/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/web-service-network/web-service-api/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/modules/web-service-network/web-service-network-api/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/web-service-network/web-service-network-api/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/web-service-network/web-service-network-api/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/internal-source-code/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/internal-source-code/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/agnoui/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/agnoui/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/agnoui/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/application-tracing/logger-engine/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/application-tracing/logger-engine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/application-tracing/logger-engine/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/application-tracing/payload-builder/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/application-tracing/payload-builder/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/application-tracing/payload-builder/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/application-tracing/tracing-core/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/application-tracing/tracing-core/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/application-tracing/tracing-core/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/no-sql/local-manage/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/no-sql/local-manage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/no-sql/local-manage/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/no-sql/mongo-manager/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/no-sql/mongo-manager/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/no-sql/mongo-manager/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/no-sql/router/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/no-sql/router/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/no-sql/router/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/sql/supabase-database/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/sql/supabase-database/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/database/sql/supabase-database/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/storage/storage-menage-repository/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/storage/storage-menage-repository/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/storage/storage-menage-repository/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/storage/supabase/storage-menager/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/storage/supabase/storage-menager/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/storage/supabase/storage-menager/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/exchange-rate/bcb-exchange-rate-service/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/exchange-rate/bcb-exchange-rate-service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/exchange-rate/bcb-exchange-rate-service/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/exchange-rate/exchange-rate-service/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/exchange-rate/exchange-rate-service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/exchange-rate/exchange-rate-service/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/model-pricing/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/model-pricing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/model-pricing/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/token-counter/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/token-counter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/token-calculate/token-counter/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/load-request-file/documentation/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/load-request-file/documentation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/load-request-file/documentation/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/load-request-file/use/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/load-request-file/use/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/load-request-file/use/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/loader-files/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/loader-files/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/loader-files/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/unique-id-factory/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/unique-id-factory/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/utils/unique-id-factory/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/vector-store/pinecone-client/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/vector-store/pinecone-client/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/vector-store/pinecone-client/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/vector-store/pinecone-embedding/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/vector-store/pinecone-embedding/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/vector-store/pinecone-embedding/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/internal-source-code/vector-store/pinecone-retriever/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/vector-store/pinecone-retriever/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/vector-store/pinecone-retriever/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/streamlit-applications/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/streamlit-applications/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/streamlit-applications/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/streamlit-applications/acquarello/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/acquarello/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/acquarello/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/pt/streamlit-applications/content-generator/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/content-generator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/content-generator/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/en/getting-started/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/getting-started/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/en/modules/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/modules/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/modules/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/en/internal-source-code/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/internal-source-code/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/internal-source-code/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/en/streamlit-applications/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/streamlit-applications/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/streamlit-applications/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/it/getting-started/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/getting-started/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/it/modules/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/modules/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/modules/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/modules/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/modules/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/it/internal-source-code/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/internal-source-code/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/internal-source-code/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/internal-source-code/"/>
+  </url>
+  <url>
+    <loc>https://enzoschitini.github.io/better-ai/it/streamlit-applications/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://enzoschitini.github.io/better-ai/en/streamlit-applications/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://enzoschitini.github.io/better-ai/it/streamlit-applications/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://enzoschitini.github.io/better-ai/pt/streamlit-applications/"/>
+  </url>
+</urlset>

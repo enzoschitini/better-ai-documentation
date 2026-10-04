@@ -1,0 +1,11 @@
+# Saida gerada pelo doc_page.builder. Nao edite nada aqui.
+#
+# O build escreve sempre LF. Sem esta linha, o git converteria para
+# CRLF no checkout e todo build seguinte mostraria diff em arquivo
+# que ninguem mexeu.
+* -text
+
+# Marca como gerado: o GitHub colapsa esses arquivos no diff do pull
+# request, entao uma mudanca de conteudo nao fica soterrada em 200
+# arquivos de saida.
+* linguist-generated=true
