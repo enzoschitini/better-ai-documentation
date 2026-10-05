@@ -127,7 +127,9 @@
       "emptyTitle": "Esta página ainda está em branco",
       "emptySourceBlank": "O arquivo <code>%s</code> existe, mas não tem conteúdo. Quando ele for preenchido, o texto aparece aqui.",
       "emptyPending": "O conteúdo de <code>%s</code> ainda não foi publicado nesta documentação.",
-      "goTo": "Ir para %s"
+      "goTo": "Ir para %s",
+      "banner": "Protótipo de layout. O conteúdo das páginas é de exemplo.",
+      "closeBanner": "Fechar aviso"
     },
     "it": {
       "skip": "Vai al contenuto",
@@ -169,7 +171,9 @@
       "emptyTitle": "Questa pagina è ancora vuota",
       "emptySourceBlank": "Il file <code>%s</code> esiste, ma non ha contenuto. Quando verrà compilato, il testo comparirà qui.",
       "emptyPending": "Il contenuto di <code>%s</code> non è ancora stato pubblicato in questa documentazione.",
-      "goTo": "Vai a %s"
+      "goTo": "Vai a %s",
+      "banner": "Prototipo di layout. Il contenuto delle pagine è di esempio.",
+      "closeBanner": "Chiudi avviso"
     },
     "en": {
       "skip": "Skip to content",
@@ -211,7 +215,9 @@
       "emptyTitle": "This page is still blank",
       "emptySourceBlank": "The file <code>%s</code> exists but has no content. Once it is filled in, the text will show up here.",
       "emptyPending": "The content of <code>%s</code> has not been published to this documentation yet.",
-      "goTo": "Go to %s"
+      "goTo": "Go to %s",
+      "banner": "Layout prototype. Page content is placeholder text.",
+      "closeBanner": "Dismiss notice"
     }
   },
   "home": {

@@ -762,6 +762,15 @@ def page_html(page, lang, cfg, areas, pages, by_id, body, lead, status):
     title_tag = (cfg["site"]["name"] if page.kind == "home"
                  else "%s | %s" % (page.title, cfg["site"]["name"]))
 
+    # Tarja de aviso no topo. Opcional: ui.<lang>.banner vazio e nenhuma tarja sai.
+    # ds.js ja cuida do botao de fechar via #banner button.
+    banner_text = (t.get("banner") or "").strip()
+    banner = ('  <div class="banner" id="banner">\n'
+              '    <span>%s</span>\n'
+              '    <button type="button" aria-label="%s">%s</button>\n'
+              '  </div>\n' % (esc(banner_text), esc(t.get("closeBanner", "")),
+                              ico("close"))) if banner_text else ""
+
     return """<!doctype html>
 <html lang="%(htmllang)s">
 <head>
@@ -785,7 +794,7 @@ def page_html(page, lang, cfg, areas, pages, by_id, body, lead, status):
 <a class="skip" href="#main">%(skip)s</a>
 
 <header class="header" id="header">
-  <div class="bar">
+%(banner)s  <div class="bar">
     <div class="row1">
       <a class="brand" href="%(home)s">
         <img src="%(root)sassets/img/logo-icon.png" alt="" onerror="this.hidden=true">
@@ -923,6 +932,7 @@ def page_html(page, lang, cfg, areas, pages, by_id, body, lead, status):
         "footPlat": esc(t["footPlat"]),
         "footerRes": footer_res,
         "footerPlat": footer_plat,
+        "banner": banner,
         "docs": json.dumps(docs_cfg, ensure_ascii=False),
     }
 
@@ -1085,6 +1095,8 @@ def default_config() -> dict:
             "emptySourceBlank": "O arquivo <code>%s</code> existe, mas não tem conteúdo. Quando ele for preenchido, o texto aparece aqui.",
             "emptyPending": "O conteúdo de <code>%s</code> ainda não foi publicado nesta documentação.",
             "goTo": "Ir para %s",
+            "banner": "Protótipo de layout. O conteúdo das páginas é de exemplo.",
+            "closeBanner": "Fechar aviso",
         },
         "it": {
             "skip": "Vai al contenuto", "searchLbl": "Cerca nella documentazione",
@@ -1109,6 +1121,8 @@ def default_config() -> dict:
             "emptySourceBlank": "Il file <code>%s</code> esiste, ma non ha contenuto. Quando verrà compilato, il testo comparirà qui.",
             "emptyPending": "Il contenuto di <code>%s</code> non è ancora stato pubblicato in questa documentazione.",
             "goTo": "Vai a %s",
+            "banner": "Prototipo di layout. Il contenuto delle pagine è di esempio.",
+            "closeBanner": "Chiudi avviso",
         },
         "en": {
             "skip": "Skip to content", "searchLbl": "Search the documentation",
@@ -1133,6 +1147,8 @@ def default_config() -> dict:
             "emptySourceBlank": "The file <code>%s</code> exists but has no content. Once it is filled in, the text will show up here.",
             "emptyPending": "The content of <code>%s</code> has not been published to this documentation yet.",
             "goTo": "Go to %s",
+            "banner": "Layout prototype. Page content is placeholder text.",
+            "closeBanner": "Dismiss notice",
         },
     }
 
